@@ -37,7 +37,7 @@ function App() {
 
      
       <MyCard
-      image = "https://media.istockphoto.com/id/1783732377/es/foto/gal%C3%A9s-corgi-cardigan-lindo-cachorro-de-perro-esponjoso-divertidos-animales-felices-sobre-fondo.jpg?s=1024x1024&w=is&k=20&c=_9dDy9en2voVx5WGRkDH7Ls7gMcdPxRHUH7XCDwmjb4="
+      image = "https://images.pexels.com/photos/8497489/pexels-photo-8497489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       title = "Milo"
       descripcion = "Lala es una cachorra valiente que ha superado muchas adversidades en su corta vida. Abandonada en las calles, esta pequeña luchadora ha encontrado refugio en nuestro centro de adopción, donde ha demostrado ser una compañera cariñosa y leal."
       color="success"
