@@ -1,0 +1,21 @@
+.espacioCarta {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+ }
+ 
+ .footer { 
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-top: 30px;
+     padding: 20px;
+ }
+ 
+ h1 {
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 40px;
+ }
