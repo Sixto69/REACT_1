@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { IconName } from "react-icons/fa";
 
 // Mapeo de nombres de íconos a los objetos de íconos correspondientes
 const iconMap = {
