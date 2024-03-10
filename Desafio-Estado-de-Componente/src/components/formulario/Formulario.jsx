@@ -72,7 +72,7 @@ const Formulario = ({ onSuccess, onError }) => {
             name="contraseña"
             placeholder="contraseña"
             className="form-control"
-            onChange={(e) => setContraseña(e.target.value)}
+            onChange={(e) => setContrasena(e.target.value)}
             value={contrasena}
           />
         </div>
