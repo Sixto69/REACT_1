@@ -45,13 +45,13 @@ const Formulario = ({ onSuccess, onError }) => {
         onSubmit={handleSubmit}
       > */}
         <div className="form-group">
-          <label>Nombre Apellido</label>
+          <label>Nombre</label>
           <input
             type="text"
             name="nombre"
             className="form-control"
             onChange={(e) => setNombre(e.target.value)}
-            value={nombre}
+            value={nombre} placeholder="Ingrese nombre completo"
           />
         </div>
         <div className="form-group">
@@ -69,9 +69,10 @@ const Formulario = ({ onSuccess, onError }) => {
           <label>Contraseña</label>
           <input
             type="password"
-            name="contrasena"
+            name="contraseña"
+            placeholder="contraseña"
             className="form-control"
-            onChange={(e) => setContrasena(e.target.value)}
+            onChange={(e) => setContraseña(e.target.value)}
             value={contrasena}
           />
         </div>
@@ -80,6 +81,7 @@ const Formulario = ({ onSuccess, onError }) => {
           <input
             type="password"
             name="confirmoContrasena"
+            placeholder="Repetir contraseña"
             className="form-control"
             onChange={(e) => setConfirmoContrasena(e.target.value)}
             value={confirmoContrasena}
