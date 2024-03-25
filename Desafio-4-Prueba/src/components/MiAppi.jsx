@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Buscador from './Buscador';
 
-const MiApi = () => {
+const MiAppi = () => {
     const [feriados, setFeriados] = useState([]);
     const [feriadosFiltrados, setFeriadosFiltrados] = useState([]);
     const [idBuscado, setIdBuscado] = useState('');
